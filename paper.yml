@@ -20,7 +20,7 @@ messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
 timings:
-  enabled: true
+  enabled: false
   really-enabled: false
   verbose: true
   url: https://timings.aikar.co/
@@ -29,6 +29,7 @@ timings:
   - database
   - settings.bungeecord-addresses
   - settings.velocity-support.secret
+  - settings.seed
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -59,7 +60,7 @@ settings:
   use-dimension-type-for-custom-spawners: false
   proxy-protocol: false
   resolve-selectors-in-books: false
-  log-player-ip-addresses: true
+  log-player-ip-addresses: false
   console:
     enable-brigadier-highlighting: true
     enable-brigadier-completions: true
@@ -370,3 +371,4 @@ world-settings:
       enabled: false
       items:
         cobblestone: 300
+
