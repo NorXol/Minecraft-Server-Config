@@ -283,7 +283,7 @@ world-settings:
     anti-xray:
       enabled: true
       engine-mode: 2
-      max-block-height: 86
+      max-block-height: 70
       update-radius: 2
       lava-obscures: false
       use-permission: false
@@ -322,10 +322,10 @@ world-settings:
     fix-climbing-bypassing-cramming-rule: false
     container-update-tick-rate: 3
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 4
+    grass-spread-tick-rate: 2
     redstone-implementation: eigencraft
     armor-stands-tick: false
-    non-player-arrow-despawn-rate: 60
+    non-player-arrow-despawn-rate: 30
     creative-arrow-despawn-rate: 60
     fixed-chunk-inhabited-time: -1
     prevent-tnt-from-moving-in-water: false
@@ -366,7 +366,7 @@ world-settings:
         villager:
           validatenearbypoi: -1
     feature-seeds:
-      generate-random-seeds-for-all: false
+      generate-random-seeds-for-all: true
     alt-item-despawn-rate:
       enabled: false
       items:
